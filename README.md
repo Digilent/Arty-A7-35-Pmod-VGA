@@ -1,7 +1,7 @@
 Arty A7-35T Pmod VGA Demo
 ==============
 
-Description
+Description  
 --------------
 This project is a Vivado demo using the Arty A7 35T's, Pmod Ports and the Pmod VGA written in VHDL. The Pmod VGA is controlled by the Arty A7 through Pmod ports JB and JC. When programmed onto the board, a bouncing box and many test pattern bars are displayed on a connected VGA monitor. The screen resolution is configurable through HDL code.
 
@@ -14,7 +14,7 @@ Requirements
 --------------
 * **Arty A7-35T**:To purchase a Arty A7-35T, see the [Digilent Store](https://store.digilentinc.com/arty-a7-artix-7-fpga-development-board-for-makers-and-hobbyists/)
 * **Pmod VGA** To purchase a Pmod VGA, see the [Digilent Store](https://store.digilentinc.com/pmod-vga-video-graphics-array/)
-* **Vivado 2018.2 Installation**:To set up Vivado, see the [Installing Vivado and Digilent Board Files Tutorial](https://reference.digilentinc.com/vivado/installing-vivado/start).
+* **Vivado 2020.1 Installation**:To set up Vivado, see the [Installing Vivado and Digilent Board Files Tutorial](https://reference.digilentinc.com/vivado/installing-vivado/start).
 * **MicroUSB Cable**
 * **VGA Monitor**
 * **VGA Cable**
@@ -22,7 +22,7 @@ Requirements
 Demo Setup
 --------------
 1. Download and extract the most recent release ZIP archive from this repository's [Releases Page](https://github.com/Digilent/Arty-A7-35-Pmod-VGA/releases).
-2. Open the project in Vivado 2018.2 by double clicking on the included XPR file found at "\<archive extracted location\>/vivado_proj/Arty-A7-35-Pmod-VGA.xpr".
+2. Open the project in Vivado 2020.1 by double clicking on the included XPR file found at "\<archive extracted location\>/vivado_proj/Arty-A7-35-Pmod-VGA.xpr".
 3. In the Flow Navigator panel on the left side of the Vivado window, click **Open Hardware Manager**.
 4. Plug the Arty A7-35T into the computer using a MicroUSB cable.
 5. In the green bar at the top of the Vivado window, click **Open target**. Select **Auto connect** from the drop down menu.
